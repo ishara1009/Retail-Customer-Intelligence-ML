@@ -1,1 +1,30 @@
 
+# Virtual environments
+.venv/
+venv/
+env/
+
+# Python caches and test artifacts
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Jupyter and IDE files
+.ipynb_checkpoints/
+.vscode/
+.idea/
+
+# Operating-system junk
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Generated reports (keep directory markers)
+outputs/figures/*
+!outputs/figures/.gitkeep
+outputs/metrics/*
+!outputs/metrics/.gitkeep
+outputs/predictions/*
+!outputs/predictions/.gitkeep
